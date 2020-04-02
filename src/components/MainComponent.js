@@ -16,7 +16,7 @@ class Main extends Component {
   }
 
   onDishSelect(dishId){
-    console.log('yaar ', dishId)
+      
     this.setState({selectedDish: dishId})
         // should call another component
    }
