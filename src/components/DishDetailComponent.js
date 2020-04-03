@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 // import {Media} from 'reactstrap';
-import {Card, CardImg, CardImgOverlay, CardText, CardBody, CardTitle } from 'reactstrap';
+import {Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 
 function RenderDish(dish) {
     return(
@@ -14,12 +14,14 @@ function RenderDish(dish) {
     )
 }
 
+
 // turn render function to const
 
 const DishDetailComponent = (props) => {
         if (props.dish == null || undefined ) {
             return (<div></div>)
         }else{
+       
             return(
                 <RenderDish dish={props.dish} />
             )
