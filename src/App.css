@@ -30,6 +30,8 @@ address{
 
 .navbar-dark {
   background-color: #512DA8;
+  margin-bottom: 0;
+
 }
 
 .nav-link{
